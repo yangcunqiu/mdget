@@ -1,0 +1,31 @@
+{
+  "name": "mdget",
+  "version": "1.0.0",
+  "description": "URL -> Markdown：抽取正文、下载图片、无法解析的媒体保留可读占位与清单",
+  "type": "module",
+  "bin": {
+    "mdget": "mdget.mjs"
+  },
+  "files": [
+    "mdget.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "markdown",
+    "url",
+    "web-clipper",
+    "readability",
+    "defuddle",
+    "wechat",
+    "scraper"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "defuddle": "^0.19.6",
+    "linkedom": "^0.18.9"
+  }
+}

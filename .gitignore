@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# 转换产物（如果直接在仓库里试跑）
+*.assets/
+output/
